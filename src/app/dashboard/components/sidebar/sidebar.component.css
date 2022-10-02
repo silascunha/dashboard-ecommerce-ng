@@ -1,0 +1,25 @@
+.sidebar {
+    border-right: 1px solid #444;
+    height: 100%;
+    width: 280px;
+    padding-left: 32px;
+}
+
+.sidebar__header {
+    display: flex;
+    align-items: center;
+    padding: 42px 0;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar__logo {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.sidebar__titulo {
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
+    margin-left: 14px;
+}
