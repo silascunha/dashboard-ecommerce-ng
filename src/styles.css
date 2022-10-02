@@ -6,4 +6,6 @@ body, html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    color: #F7F9FB;
 }
