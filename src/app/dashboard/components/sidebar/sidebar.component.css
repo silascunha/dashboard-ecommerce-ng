@@ -1,7 +1,7 @@
 .sidebar {
     border-right: 1px solid #323232;
     height: 100%;
-    width: 280px;
+    width: 260px;
     padding-left: 32px;
 }
 
@@ -10,21 +10,24 @@
     align-items: center;
     padding: 42px 0;
     border-bottom: 1px solid #323232;
+    border-radius: 0 0 20px 0 ;
 }
 
 .sidebar__logo {
-    height: 30px;
-    width: 30px;
+    height: 28px;
+    width: 28px;
     object-fit: contain;
 }
 
 .sidebar__titulo {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Major Mono Display', monospace;
     margin-left: 14px;
 }
 
 .sidebar__menu {
+    border-top: 1px solid #323232;
+    border-radius: 0 20px 0 0;
     padding: 42px 0;
 }
 
