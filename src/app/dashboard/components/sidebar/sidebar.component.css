@@ -11,12 +11,27 @@
     padding: 42px 0;
     border-bottom: 1px solid #323232;
     border-radius: 0 0 20px 0 ;
+    cursor: pointer;
 }
 
 .sidebar__logo {
     height: 28px;
     width: 28px;
     object-fit: contain;
+}
+
+.sidebar__header:hover .sidebar__logo {
+    animation: rotate-anim;
+    animation-duration: 1.2s;
+}
+
+@keyframes rotate-anim {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
 }
 
 .sidebar__titulo {
