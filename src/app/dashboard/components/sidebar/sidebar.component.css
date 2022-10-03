@@ -3,6 +3,8 @@
     height: 100%;
     width: 260px;
     padding-left: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar__header {
@@ -40,11 +42,17 @@
     margin-left: 14px;
 }
 
-.sidebar__menu {
+.sidebar__nav {
     border-top: 1px solid #323232;
-    border-radius: 0 20px 0 0;
+    border-bottom: 1px solid #323232;
+    border-radius: 0 20px 20px 0;
     padding: 42px 0;
+    overflow-y: auto;
+    min-height: fit-content;
+    flex-grow: 1;
 }
+
+.sidebar__menu {}
 
 .sidebar__menu__item:not(:last-child) {
     margin-bottom: 4px;
@@ -74,4 +82,14 @@
 
 .sidebar__menu__link:hover .menu__item__label {
     color: #f1f1f1;
+}
+
+.sidebar__footer {
+    padding: 24px 0;
+    border-top: 1px solid #323232;
+    border-radius: 0 20px 0 0;
+}
+
+.sidebar__footer .menu__item__label {
+    margin-left: 0;
 }
