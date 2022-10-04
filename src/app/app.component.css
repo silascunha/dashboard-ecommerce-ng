@@ -1,0 +1,10 @@
+.page {
+    height: 100%;
+    display: flex;
+}
+
+.page__view {
+    height: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}

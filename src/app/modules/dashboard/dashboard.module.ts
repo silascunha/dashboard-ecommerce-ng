@@ -2,14 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
-import { DashboardComponent } from './containers/dashboard/dashboard.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
-    DashboardComponent,
-    SidebarComponent
+    DashboardComponent
   ],
   imports: [
     CommonModule,
