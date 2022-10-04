@@ -84,6 +84,15 @@
     color: #f1f1f1;
 }
 
+.sidebar__menu__link.sidebar__menu__link--active .menu__item__icon {
+    color: #CFF264 !important;
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.sidebar__menu__link.sidebar__menu__link--active .menu__item__label {
+    color: #f1f1f1;
+}
+
 .sidebar__footer {
     padding: 24px 0;
     border-top: 1px solid #323232;
