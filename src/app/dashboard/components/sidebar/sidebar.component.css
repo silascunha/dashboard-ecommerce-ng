@@ -1,7 +1,7 @@
 .sidebar {
     border-right: 1px solid #323232;
     height: 100%;
-    width: 260px;
+    width: 280px;
     padding-left: 32px;
     display: flex;
     flex-direction: column;
@@ -17,8 +17,8 @@
 }
 
 .sidebar__logo {
-    height: 28px;
-    width: 28px;
+    height: 30px;
+    width: 30px;
     object-fit: contain;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .sidebar__titulo {
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Major Mono Display', monospace;
     margin-left: 14px;
 }
@@ -46,7 +46,7 @@
     border-top: 1px solid #323232;
     border-bottom: 1px solid #323232;
     border-radius: 0 20px 20px 0;
-    padding: 42px 0;
+    padding: 46px 0;
     overflow-y: auto;
     min-height: fit-content;
     flex-grow: 1;
@@ -63,16 +63,16 @@
     cursor: pointer;
     align-items: center;
     color: #b8b8b8;
-    padding: 8px 0;
+    padding: 0.7rem 0;
 }
 
 .menu__item__icon {
-    font-size: 1.4em;
+    font-size: 1.56rem;
 }
 
 .menu__item__label {
     margin-left: 12px;
-    font-size: 0.9em;
+    font-size: 1rem;
     font-weight: 400;
 }
 
