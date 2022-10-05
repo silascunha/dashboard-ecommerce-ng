@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './core/sidebar/sidebar.component';
-import { DashboardModule } from './modules/dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +12,7 @@ import { DashboardModule } from './modules/dashboard/dashboard.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    DashboardModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
