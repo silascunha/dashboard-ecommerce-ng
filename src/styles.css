@@ -18,3 +18,10 @@ body {
 .material-symbols-outlined.icon-fill {
     font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
 }
+
+.card {
+    background-color: #1C1C1C;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
+}
