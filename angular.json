@@ -24,6 +24,7 @@
             ],
             "styles": [
               "src/reset.css",
+              "node_modules/primeflex/primeflex.min.css",
               "src/styles.css"
             ],
             "scripts": []
