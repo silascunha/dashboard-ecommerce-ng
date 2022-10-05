@@ -1,0 +1,64 @@
+.topbar {
+    padding-top: 48px;
+    padding: 48px 40px;
+    padding-bottom: 36px;
+    position: relative;
+    z-index: 1;
+}
+
+.topbar__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.topbar__subtitle {
+    font-size: 0.98rem;
+    color: #a3a3a3;
+}
+
+.topbar__options {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    top: 48px;
+}
+
+.topbar__options>:not(:last-child) {
+    margin-right: 26px;
+}
+
+.topbar__profile {
+    display: flex;
+    align-items: center;
+}
+
+.topbar__profile__img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.topbar__profile >:not(:last-child) {
+    margin-right: 14px;
+}
+
+.topbar__btn-icon {
+    cursor: pointer;
+}
+
+.topbar__btn-icon.badge {
+    position: relative;
+}
+
+.topbar__btn-icon.badge::after {
+    content: '';
+    background-color: #e06e4b;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
