@@ -8,10 +8,10 @@
 
 .topbar__title {
     font-size: 1.8rem;
-    margin-bottom: 1rem;
 }
 
 .topbar__subtitle {
+    margin-top: 1rem;
     font-size: 0.98rem;
     color: #a3a3a3;
 }
