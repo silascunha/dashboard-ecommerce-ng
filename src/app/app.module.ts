@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './core/sidebar/sidebar.component';
-import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -13,8 +12,7 @@ import { NgChartsModule } from 'ng2-charts';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgChartsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
