@@ -6,12 +6,14 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { PrincipalInfosComponent } from './components/principal-infos/principal-infos.component';
 import { NgChartsModule } from 'ng2-charts';
+import { LineChartComponent } from './components/line-chart/line-chart.component';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
-    PrincipalInfosComponent
+    PrincipalInfosComponent,
+    LineChartComponent
   ],
   imports: [
     CommonModule,
