@@ -1,6 +1,6 @@
 .topbar {
     padding-top: 48px;
-    padding: 48px 40px;
+    padding: 48px;
     padding-bottom: 36px;
     position: relative;
     z-index: 1;
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    right: 40px;
+    right: 48px;
     top: 48px;
 }
 
