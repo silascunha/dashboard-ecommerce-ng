@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
+import { Component } from '@angular/core';
+import { ChartConfiguration, ChartOptions } from 'chart.js';
 
 @Component({
   selector: 'app-doughnut-chart',
@@ -18,11 +18,9 @@ export class DoughnutChartComponent {
       {
         data: [70, 20, 10],
         label: 'Receita',
-        //borderColor: ['#5C6BDB', '#DB8F72', '#BB4445'],
         backgroundColor: ['#5C6BDB', '#DB8F72', '#BB4445'],
         borderWidth: 0,
         rotation: 170,
-
       }
     ]
   };
