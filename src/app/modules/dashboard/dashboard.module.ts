@@ -7,13 +7,15 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { PrincipalInfosComponent } from './components/principal-infos/principal-infos.component';
 import { NgChartsModule } from 'ng2-charts';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { DoughnutChartComponent } from './components/doughnut-chart/doughnut-chart.component';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
     PrincipalInfosComponent,
-    LineChartComponent
+    LineChartComponent,
+    DoughnutChartComponent
   ],
   imports: [
     CommonModule,
