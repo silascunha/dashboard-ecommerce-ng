@@ -51,7 +51,7 @@ export class DoughnutChartComponent {
   
     },
     color: '#A9A9A9',
-    cutout: 80,
+    cutout: '70%',
   };
   public doughnutChartLegend = true;
 
