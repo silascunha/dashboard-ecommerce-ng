@@ -37,7 +37,9 @@ export class DoughnutChartComponent {
           size: 20,
           family: "'Roboto', sans-serif"
         },
-        padding: 0
+        padding: {
+          bottom: 12
+        }
       },
       legend: {
         align: 'start',
@@ -46,12 +48,14 @@ export class DoughnutChartComponent {
           usePointStyle: true,
           boxHeight: 5,
           boxWidth: 5,
-        }
+          padding: 12,
+        },
       },
   
     },
-    color: '#A9A9A9',
     cutout: '70%',
+    responsive: true,
+    
   };
   public doughnutChartLegend = true;
 

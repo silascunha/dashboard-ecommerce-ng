@@ -1,7 +1,17 @@
-.container {
+.dash {
     padding: 0 48px;
 }
 
+.dash__item {
+    flex-grow: 1;
+    padding: .5rem;
+}
+
+.dash__item-pequeno {
+    width: 290px;
+    padding: .5rem;
+}
+
 .grafico {
-    height: 400px;
+    height: 380px;
 }
